@@ -1,0 +1,27 @@
+{
+    "title": "We are Innovators",
+    "description": "Founded in August 2019, we are a technology start-up based in Kerala, India. We may be based in Kerala, but we work across countries without any differences. We are engineers, designers, tinkers, bikers, photographers, and many more.",
+    "quote": "'Apart from values and ethics which I have tried to live by, the legacy I would like to leave behind is a very simple one – that I have always stood up for what I consider to be the right thing, and I have tried to be as fair and equitable as I could be.' - Ratan Tata",
+    "values": [
+        {
+            "title": "Integrity",
+            "description": "We believe business without integrity is nothing but a scam."
+        },
+        {
+            "title": "Passion",
+            "description": "We tirelessly pursue results, driven by a clear sense of purpose to make our clients and partners secure and successful."
+        },
+        {
+            "title": "Fun",
+            "description": "We work hard and it is really fun. We believe if work isn't fun we are not doing it right."
+        },
+        {
+            "title": "Innovation",
+            "description": "We are curious by nature, hungry for knowledge, and excited about new challenges"
+        },
+        {
+            "title": "Teamwork",
+            "description": "Great things in business are never done by one person. They are done by a team of people."
+        }
+    ]
+}

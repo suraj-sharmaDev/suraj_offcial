@@ -1,0 +1,108 @@
+.bodyContainer {
+    border-left: 1px solid rgb(201, 201, 201);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6%;
+}
+
+.ourWorksContainer {
+    width: 100%;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 800px) {
+    .ourWorksContainer {
+        width: 50vw;
+    }
+}
+
+.mainTitle {
+    font-family: Montserrat-bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: rgb(255, 255, 255);
+}
+
+.workItemDiv {
+    position: relative;
+    width: 80%;
+    max-width: 700px;
+    background-color: #16171B;
+    max-height: 700px;
+    margin-bottom: 3.3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 14px;
+}
+
+.workImage {
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.workItemTitle {
+    color:white;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+}
+
+.workItemInfoDiv {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 35px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    z-index: 999;
+}
+
+.workItemInfoDiv:hover {
+
+}
+
+.workItemDescp {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: Montserrat-light;
+}
+
+.workItemDescpAnimated {
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+    font-family: Montserrat-light;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}  
+
+.learnBtn {
+    border: 0.1px solid white;
+    margin-top: 16px;
+    border-radius: 14px;
+    padding: 8px 25px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 14px;
+    font-family: Montserrat-light;
+}

@@ -1,0 +1,89 @@
+.bodyContainer {
+    border-left: 1px solid rgb(201, 201, 201);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6%;
+}
+
+.whoAreWeContainer {
+    width: 100%;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 800px) {
+    .whoAreWeContainer {
+        width: 50vw;
+    }
+}
+
+.mainTitle {
+    font-family: Montserrat-bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: rgb(255, 255, 255);
+}
+
+.descriptionText {
+    margin: 4vh 0px 4vh 0px;
+    font-weight: 600;
+    /* font-family: Montserrat-bold; */
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+}
+
+.quoteText {
+    margin: 0vh 0px 4vh 0px;
+    font-family: Montserrat-light;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+.valueItemDiv {
+    margin: 6vh 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.valueItemInfoBox {
+    /* background-color: red; */
+    /* padding: 0px 0px; */
+    padding-right: 15px;
+}
+
+.valueIcon {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+}
+
+.valueTitle {
+    font-family: Montserrat-bold;
+    color: rgb(255, 255, 255);
+}
+
+/* Adding a horizontal line right to title */
+
+.valueTitle:after {
+  background-color: rgb(255, 255, 255);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 2%;
+}
+
+.valueTitle:after {
+  left: 0.5em;
+  margin-right: 3%;
+}
+
+.valueDescription {
+    color: white;
+}

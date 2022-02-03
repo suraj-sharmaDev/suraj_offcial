@@ -1,0 +1,50 @@
+.bodyContainer {
+    border-left: 1px solid rgb(201, 201, 201);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6%;
+}
+
+.contactContainer {
+    width: 100%;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 800px) {
+    .contactContainer {
+        width: 50vw;
+    }
+}
+
+.mainTitle {
+    font-family: Montserrat-bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: rgb(255, 255, 255);
+}
+
+.bigText {
+    margin: 4vh 0px 4vh 0px;
+    font-weight: 600;
+    /* font-family: Montserrat-bold; */
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+.submitButton {
+    border: none;
+    margin-bottom: 8vh;
+    color: white;
+    font-family: Montserrat-bold;
+    padding: 6px 50px;
+    border-radius: 4px;
+}

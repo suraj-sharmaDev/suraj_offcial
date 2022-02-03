@@ -1,0 +1,137 @@
+.navContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 800px) {
+    .navContainer {
+        flex-direction: column;
+    }
+}
+
+.mainTitle {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.sideBarContainer {
+    /* border: 1px solid rgb(202, 202, 202); */
+    width: 20vw;
+    padding: 3%;
+    /* margin-right: 10px;
+    box-shadow: 10px -2px 23px -15px rgba(0,0,0,0.81);
+    -webkit-box-shadow: 10px -2px 23px -15px rgba(0,0,0,0.81);
+    -moz-box-shadow: 10px -2px 23px -15px rgba(0,0,0,0.81); */
+}
+
+@media only screen and (max-width: 800px) {
+    .sideBarContainer {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.sideBarLinks {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBarLinks > span {
+    margin-bottom: 24%;
+    font-family: Montserrat-bold;
+    color: rgb(206, 206, 206);
+    cursor: pointer;
+}
+
+.activeLink {
+    font-family: Montserrat-extraBold !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.sideBarNavBtn {
+    border: none;
+    border-radius: 3px;
+    /* background-color: white; */
+    padding: 2px 10px;
+}
+
+.sideBarNavBtnIcon {
+    max-width: 30px;
+    width: 4vw;
+    min-width: 20px;
+    max-height: 30px;
+    height: 4vw;
+    min-height: 20px;
+}
+
+.fixedAnimatedDiv {
+    position: absolute;
+    /* width: 40vw;
+    height: 100vh; */
+    background-color: white;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25%;
+    box-shadow: 10px -2px 23px -15px rgba(0,0,0,0.81);
+    -webkit-box-shadow: 10px -2px 23px -15px rgba(0,0,0,0.81);
+    -moz-box-shadow: 10px -2px 23px -15px rgba(0,0,0,0.81);
+    z-index: 9999;
+}
+
+.sideBarCrossBtnIcon {
+    width: 30px;
+    height: 30px;
+    margin: 8vh 0vh;
+}
+
+.fixedAnimatedDiv > span {
+    margin-bottom: 10%;
+    font-family: Montserrat-bold;
+    color: rgb(119, 119, 119);
+    cursor: pointer;
+}
+
+.activeLinkFloating {
+    font-family: Montserrat-extraBold !important;
+    color: rgb(59, 59, 59) !important;
+}
+
+.animatedClassEnter {
+    width: 40vw;
+    height: 100vh;
+    left: 0;
+    transition: left 0.5s;
+}
+
+@media only screen and (max-width: 500px) {
+    .animatedClassEnter {
+        width: 100vw;
+    }
+}
+
+.animatedClassExit {
+    width: 40vw;
+    height: 100vh;
+    left: -100vw;
+    transition: left 0.5s;
+}
+
+.childContainer {
+    width: 80vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .childContainer {
+        width: 100vw;
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "banner": {
+        "title": "Designing Visual Stories",
+        "subtitle": "Let's make your ideas a reality!",
+        "backgroundImage": "https://via.placeholder.com/1000x1000.png?text=."
+    },
+    "body": [
+        {
+            "title": "Building Your Brand- Branding",
+            "subtitle": "Let's sit down together and figure out the best path for you to develop your brand. Our goal is to create designs that are attractive and help your business grow. Get your brand designed by Kochi's  best designing studio"
+        },
+        {
+            "title": "Creating a Presence - UI/UX Designing",
+            "subtitle": "The internet is a vast place, and it can be hard to stick out from the crowd. We will take your ideas and work with you to make your digital presence 'you.' After clarifying the goals for your website we will design a website that conveys your story to its visitors."
+        },
+        {
+            "title": "Be Seen - Marketing / Graphic Designing",
+            "subtitle": "Your website is the landing page for your business, but it can be hard to direct traffic to your website without help. Through consistent design across both your print and digital presence, we will get you the recognition you need to keep your business flourishing."
+        }        
+    ]
+}

@@ -1,0 +1,32 @@
+const Images = {
+    home: '/images/house.png',
+    orders: '/images/checklist.png',
+    products: '/images/box.png',
+    appIcon: '/images/appIcon.png',
+    cross: '/images/cross.png',
+    search: '/images/search.png',
+    menuIcon: '/images/list.png',
+    facebook: '/images/facebook.png',
+    twitter: '/images/twitter.png',
+    instagram: '/images/instagram.png',
+    linkedin: '/images/linkedin.png',
+    teamwork: '/images/teamwork.png',
+    fun: '/images/fun.png',
+    innovation: '/images/innovation.png',
+    integrity: '/images/integrity.png',
+    passion: '/images/passion.png',
+    uiDesign: '/images/uiDesign.jpg',
+    analytics: '/images/analytics.jpg',
+    freeHire: '/images/freeHire.webp',
+    notificationBell: '/images/bell.png',
+
+    hero_run_1: '/images/game/hero/run_1.png',
+    hero_run_2: '/images/game/hero/run_2.png',
+    hero_run_3: '/images/game/hero/run_3.png',
+    hero_run_4: '/images/game/hero/run_4.png',
+    hero_jump: '/images/game/hero/jump.png',
+    hero_dead_1: '/images/game/hero/dead_1.png',
+    hero_dead_2: '/images/game/hero/dead_2.png',
+}
+
+export default Images;

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "BI Analytics",
+        "shortInfo": "Handling billions of data points?",
+        "description": "We assist you in making data-driven choices faster by placing the capability of iterative analytics in the hands of analysts, marketers, product administrators, and cross-functional business teams working with billions of rows of data.",
+        "image": "analytics"
+    },
+    {
+        "title": "UI and UX Design",
+        "shortInfo": "Innovative design approaches?",
+        "description": "We help you reinvent your design requirements with the latest tools and technologies.",
+        "image": "uiDesign"
+    },
+    {
+        "title": "FreeHire.AI",
+        "shortInfo": "Need better candidates?",
+        "description": "AI powered assistant for hiring automation.",
+        "image": "freeHire"
+    }            
+]
